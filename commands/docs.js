@@ -21,6 +21,11 @@ const row = new ActionRowBuilder()
                     value: "csharp"
                 },
                 {
+                    label: "C++",
+                    description: "Veja a documentação de C++",
+                    value: "cplusplus"
+                },
+                {
                     label: "discord.js",
                     description: "Veja a documentação de Discord.js",
                     value: "discordjs"

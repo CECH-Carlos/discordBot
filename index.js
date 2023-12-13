@@ -45,6 +45,8 @@ client.on(Events.InteractionCreate, async interaction =>{
             await interaction.reply('Documentação do Python por versão: https://www.python.org/doc/versions/');
         } else if(selected == 'csharp'){
             await interaction.reply('Documentação do C#: https://learn.microsoft.com/pt-br/dotnet/csharp/');
+        } else if(selected == 'cplusplus'){
+            await interaction.reply('Documentação do C++: https://devdocs.io/cpp/ \n ou pela documentação original do C++: https://cplusplus.com/doc/');
         } else if(selected == 'discordjs'){
             await interaction.reply('Documentação do Dsicord.js: https://discord.js.org/docs/packages/discord.js/main');
         } else if(selected == 'typescript'){
