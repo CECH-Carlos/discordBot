@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@discordjs/collection": "^2.0.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "name": "discordbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot-discord"
+  ],
+  "author": "Carlos Eduardo de Castro Henriques",
+  "license": "ISC",
+  "description": "bot de estudos de programação para discord"
+}
