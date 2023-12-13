@@ -22,7 +22,7 @@ for (const file of commandFiles) {
   if ('data' in command && 'execute' in command) {
     client.commands.set(command.data.name, command);
   } else {
-    console.log(`Esse comando em ${filePath} esta´com "data" ou "execute" ausentes`)
+    console.log(`Esse comando em ${filePath} esta com "data" ou "execute" ausentes`)
   }
 }
 
